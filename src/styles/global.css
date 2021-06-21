@@ -1,0 +1,7 @@
+main {
+  background-color: #00020c;
+  margin-left: 50px;
+  height: calc(100vh - 50px);
+  overflow: auto;
+  padding: 20px;
+}

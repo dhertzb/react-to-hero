@@ -1,0 +1,12 @@
+.hamburger {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.hamburger__stick {
+  width: 20px;
+  height: 2.5px;
+  border-radius: 1px;
+  margin: 5px;
+  background: white;
+}
