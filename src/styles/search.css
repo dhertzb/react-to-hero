@@ -4,14 +4,14 @@
   padding: 5px 10px;
   border-radius: 5px;
   display: flex;
-  background: rgb(21, 16, 37);
+  background: rgb(241, 238, 250);
   align-items: center;
   justify-content: space-around;
 }
 .search input {
   background: none;
   outline: none;
-  color: white;
+  color: rgb(0, 0, 0);
   border: 0;
 }
 .search__icon {

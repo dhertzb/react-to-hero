@@ -1,12 +1,7 @@
 import React from "react";
-import Search from "./Search";
 import "../../styles/table.css";
 
 class Table extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const cols = this.props.cols.map((col) => (
       <th key={col.value}>{col.value}</th>
@@ -20,7 +15,6 @@ class Table extends React.Component {
     ));
     return (
       <>
-        <Search />
         <table>
           <thead>
             <tr>{cols}</tr>
